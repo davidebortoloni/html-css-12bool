@@ -1,3 +1,16 @@
 .col {
     min-height: 200px;
+    background-color: pink;
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+
+.nested {
+    padding: 5px;
+}
+
+.nested > div{
+    background-color: #F07F80;
+    border: 1px solid white;
 }
