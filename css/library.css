@@ -15,13 +15,12 @@
 }
 
 /* Flex */
-.flex {
+.row {
     display: flex;
-}
-.flex.row {
     flex-flow: row wrap;
 }
-.flex.column {
+.column {
+    display: flex;
     flex-flow: column wrap;
 }
 
@@ -110,32 +109,61 @@
     margin-left: calc(100% / 12 * 0);
 }
 
-/* Allinamenti */
-.flex.justify-start-xs {
+/**** ALLINEAMENTI ****/
+/* Nei figli diretti */
+.item-justify-start-xs > .row {
     justify-content: flex-start;
 }
-.flex.justify-center-xs {
+.item-justify-center-xs > .row {
     justify-content: center;
 }
-.flex.justify-end-xs {
+.item-justify-end-xs > .row {
     justify-content: flex-end;
 }
-.flex.justify-space-around-xs {
+.item-justify-space-around-xs > .row {
     justify-content: space-around;
 }
-.flex.justify-space-between-xs {
+.item-justify-space-between-xs > .row {
     justify-content: space-between;
 }
-.flex.justify-space-evenly-xs {
+.item-justify-space-evenly-xs > .row {
     justify-content: space-evenly;
 }
-.flex.align-start-xs {
+.item-align-start-xs > .row {
     align-items: flex-start;
 }
-.flex.align-center-xs {
+.item-align-center-xs > .row {
     align-items: center;
 }
-.flex.align-end-xs {
+.item-align-end-xs > .row {
+    align-items: flex-end;
+}
+/* Nei genitori */
+.justify-start-xs {
+    justify-content: flex-start;
+}
+.justify-center-xs {
+    justify-content: center;
+}
+.justify-end-xs {
+    justify-content: flex-end;
+}
+.justify-space-around-xs {
+    justify-content: space-around;
+}
+.justify-space-between-xs {
+    justify-content: space-between;
+}
+.justify-space-evenly-xs {
+    justify-content: space-evenly;
+}
+.align-start-xs {
+    align-items: flex-start;
+}
+.align-center-xs {
+    align-items: center;
+}
+.align-end-xs {
     align-items: flex-end;
 }
 
@@ -225,32 +253,61 @@
         margin-left: calc(100% / 12 * 0);
     }
     
-    /* Allinamenti */
-    .flex.justify-start-sm {
+    /**** ALLINEAMENTI ****/
+    /* Nei figli diretti */
+    .item-justify-start-sm > .row {
         justify-content: flex-start;
     }
-    .flex.justify-center-sm {
+    .item-justify-center-sm > .row {
         justify-content: center;
     }
-    .flex.justify-end-sm {
+    .item-justify-end-sm > .row {
         justify-content: flex-end;
     }
-    .flex.justify-space-around-sm {
+    .item-justify-space-around-sm > .row {
         justify-content: space-around;
     }
-    .flex.justify-space-between-sm {
+    .item-justify-space-between-sm > .row {
         justify-content: space-between;
     }
-    .flex.justify-space-evenly-sm {
+    .item-justify-space-evenly-sm > .row {
         justify-content: space-evenly;
     }
-    .flex.align-start-sm {
+    .item-align-start-sm > .row {
         align-items: flex-start;
     }
-    .flex.align-center-sm {
+    .item-align-center-sm > .row {
         align-items: center;
     }
-    .flex.align-end-sm {
+    .item-align-end-sm > .row {
+        align-items: flex-end;
+    }
+    /* Nei genitori */
+    .justify-start-sm {
+        justify-content: flex-start;
+    }
+    .justify-center-sm {
+        justify-content: center;
+    }
+    .justify-end-sm {
+        justify-content: flex-end;
+    }
+    .justify-space-around-sm {
+        justify-content: space-around;
+    }
+    .justify-space-between-sm {
+        justify-content: space-between;
+    }
+    .justify-space-evenly-sm {
+        justify-content: space-evenly;
+    }
+    .align-start-sm {
+        align-items: flex-start;
+    }
+    .align-center-sm {
+        align-items: center;
+    }
+    .align-end-sm {
         align-items: flex-end;
     }
 }
@@ -339,32 +396,61 @@
         margin-left: calc(100% / 12 * 0);
     }
     
-    /* Allinamenti */
-    .flex.justify-start-md {
+    /**** ALLINEAMENTI ****/
+    /* Nei figli diretti */
+    .item-justify-start-md > .row {
         justify-content: flex-start;
     }
-    .flex.justify-center-md {
+    .item-justify-center-md > .row {
         justify-content: center;
     }
-    .flex.justify-end-md {
+    .item-justify-end-md > .row {
         justify-content: flex-end;
     }
-    .flex.justify-space-around-md {
+    .item-justify-space-around-md > .row {
         justify-content: space-around;
     }
-    .flex.justify-space-between-md {
+    .item-justify-space-between-md > .row {
         justify-content: space-between;
     }
-    .flex.justify-space-evenly-md {
+    .item-justify-space-evenly-md > .row {
         justify-content: space-evenly;
     }
-    .flex.align-start-md {
+    .item-align-start-md > .row {
         align-items: flex-start;
     }
-    .flex.align-center-md {
+    .item-align-center-md > .row {
         align-items: center;
     }
-    .flex.align-end-md {
+    .item-align-end-md > .row {
+        align-items: flex-end;
+    }
+    /* Nei genitori */
+    .justify-start-md {
+        justify-content: flex-start;
+    }
+    .justify-center-md {
+        justify-content: center;
+    }
+    .justify-end-md {
+        justify-content: flex-end;
+    }
+    .justify-space-around-md {
+        justify-content: space-around;
+    }
+    .justify-space-between-md {
+        justify-content: space-between;
+    }
+    .justify-space-evenly-md {
+        justify-content: space-evenly;
+    }
+    .align-start-md {
+        align-items: flex-start;
+    }
+    .align-center-md {
+        align-items: center;
+    }
+    .align-end-md {
         align-items: flex-end;
     }
 }
@@ -453,32 +539,61 @@
         margin-left: calc(100% / 12 * 0);
     }
     
-    /* Allinamenti */
-    .flex.justify-start-lg {
+    /**** ALLINEAMENTI ****/
+    /* Nei figli diretti */
+    .item-justify-start-lg > .row {
         justify-content: flex-start;
     }
-    .flex.justify-center-lg {
+    .item-justify-center-lg > .row {
         justify-content: center;
     }
-    .flex.justify-end-lg {
+    .item-justify-end-lg > .row {
         justify-content: flex-end;
     }
-    .flex.justify-space-around-lg {
+    .item-justify-space-around-lg > .row {
         justify-content: space-around;
     }
-    .flex.justify-space-between-lg {
+    .item-justify-space-between-lg > .row {
         justify-content: space-between;
     }
-    .flex.justify-space-evenly-lg {
+    .item-justify-space-evenly-lg > .row {
         justify-content: space-evenly;
     }
-    .flex.align-start-lg {
+    .item-align-start-lg > .row {
         align-items: flex-start;
     }
-    .flex.align-center-lg {
+    .item-align-center-lg > .row {
         align-items: center;
     }
-    .flex.align-end-lg {
+    .item-align-end-lg > .row {
+        align-items: flex-end;
+    }
+    /* Nei genitori */
+    .justify-start-lg {
+        justify-content: flex-start;
+    }
+    .justify-center-lg {
+        justify-content: center;
+    }
+    .justify-end-lg {
+        justify-content: flex-end;
+    }
+    .justify-space-around-lg {
+        justify-content: space-around;
+    }
+    .justify-space-between-lg {
+        justify-content: space-between;
+    }
+    .justify-space-evenly-lg {
+        justify-content: space-evenly;
+    }
+    .align-start-lg {
+        align-items: flex-start;
+    }
+    .align-center-lg {
+        align-items: center;
+    }
+    .align-end-lg {
         align-items: flex-end;
     }
 }
@@ -567,32 +682,61 @@
         margin-left: calc(100% / 12 * 0);
     }
     
-    /* Allinamenti */
-    .flex.justify-start-xl {
+    /**** ALLINEAMENTI ****/
+    /* Nei figli diretti */
+    .item-justify-start-xl > .row {
         justify-content: flex-start;
     }
-    .flex.justify-center-xl {
+    .item-justify-center-xl > .row {
         justify-content: center;
     }
-    .flex.justify-end-xl {
+    .item-justify-end-xl > .row {
         justify-content: flex-end;
     }
-    .flex.justify-space-around-xl {
+    .item-justify-space-around-xl > .row {
         justify-content: space-around;
     }
-    .flex.justify-space-between-xl {
+    .item-justify-space-between-xl > .row {
         justify-content: space-between;
     }
-    .flex.justify-space-evenly-xl {
+    .item-justify-space-evenly-xl > .row {
         justify-content: space-evenly;
     }
-    .flex.align-start-xl {
+    .item-align-start-xl > .row {
         align-items: flex-start;
     }
-    .flex.align-center-xl {
+    .item-align-center-xl > .row {
         align-items: center;
     }
-    .flex.align-end-xl {
+    .item-align-end-xl > .row {
+        align-items: flex-end;
+    }
+    /* Nei genitori */
+    .justify-start-xl {
+        justify-content: flex-start;
+    }
+    .justify-center-xl {
+        justify-content: center;
+    }
+    .justify-end-xl {
+        justify-content: flex-end;
+    }
+    .justify-space-around-xl {
+        justify-content: space-around;
+    }
+    .justify-space-between-xl {
+        justify-content: space-between;
+    }
+    .justify-space-evenly-xl {
+        justify-content: space-evenly;
+    }
+    .align-start-xl {
+        align-items: flex-start;
+    }
+    .align-center-xl {
+        align-items: center;
+    }
+    .align-end-xl {
         align-items: flex-end;
     }
 }
@@ -681,32 +825,61 @@
         margin-left: calc(100% / 12 * 0);
     }
     
-    /* Allinamenti */
-    .flex.justify-start-xxl {
+    /**** ALLINEAMENTI ****/
+    /* Nei figli diretti */
+    .item-justify-start-xxl > .row {
         justify-content: flex-start;
     }
-    .flex.justify-center-xxl {
+    .item-justify-center-xxl > .row {
         justify-content: center;
     }
-    .flex.justify-end-xxl {
+    .item-justify-end-xxl > .row {
         justify-content: flex-end;
     }
-    .flex.justify-space-around-xxl {
+    .item-justify-space-around-xxl > .row {
         justify-content: space-around;
     }
-    .flex.justify-space-between-xxl {
+    .item-justify-space-between-xxl > .row {
         justify-content: space-between;
     }
-    .flex.justify-space-evenly-xxl {
+    .item-justify-space-evenly-xxl > .row {
         justify-content: space-evenly;
     }
-    .flex.align-start-xxl {
+    .item-align-start-xxl > .row {
         align-items: flex-start;
     }
-    .flex.align-center-xxl {
+    .item-align-center-xxl > .row {
         align-items: center;
     }
-    .flex.align-end-xxl {
+    .item-align-end-xxl > .row {
+        align-items: flex-end;
+    }
+    /* Nei genitori */
+    .justify-start-xxl {
+        justify-content: flex-start;
+    }
+    .justify-center-xxl {
+        justify-content: center;
+    }
+    .justify-end-xxl {
+        justify-content: flex-end;
+    }
+    .justify-space-around-xxl {
+        justify-content: space-around;
+    }
+    .justify-space-between-xxl {
+        justify-content: space-between;
+    }
+    .justify-space-evenly-xxl {
+        justify-content: space-evenly;
+    }
+    .align-start-xxl {
+        align-items: flex-start;
+    }
+    .align-center-xxl {
+        align-items: center;
+    }
+    .align-end-xxl {
         align-items: flex-end;
     }
 }
